@@ -1,0 +1,27 @@
+.box {
+    padding: 5px;
+    background-color: #ffffff;
+  }
+  
+  .box:hover {
+    background-color: #cccccc;
+   width: auto;
+  }
+  
+  .box:hover::after {
+    content: "";
+    display: block;
+    border: 1px solid #cccccc;
+    width: auto;
+    height: 2px;
+  
+   
+  }
+  
+  .red-dot {
+    width: 10px; /* adjust size as needed */
+    height: 10px; /* adjust size as needed */
+    background-color: red;
+    border-radius: 50%; /* to make it a circle */
+  }
+  
